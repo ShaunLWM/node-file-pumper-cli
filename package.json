@@ -1,0 +1,21 @@
+{
+  "name": "node-file-pumper-cli",
+  "version": "0.0.1",
+  "repository": "https://github.com/ShaunLWM/node-file-pumper-cli.git",
+  "author": "ShaunLWM",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.16.0"
+  },
+  "main": "bin/pump.js",
+  "keywords": [
+    "file-pumper",
+    "filepumper",
+    "filepump",
+    "pump"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "pump": "./bin/pump.js"
+  }
+}
